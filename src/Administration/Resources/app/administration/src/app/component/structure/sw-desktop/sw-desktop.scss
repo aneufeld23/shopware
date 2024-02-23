@@ -18,3 +18,13 @@
         }
     }
 }
+
+.sw-staging-bar {
+    display: flex;
+    justify-content: center;
+    background: rgb(61, 68, 77);
+    color: white;
+    font-weight: bold;
+    padding: 1rem;
+    position: sticky;
+}

@@ -31,6 +31,10 @@ Component.register('sw-desktop', {
         currentUser() {
             return Shopware.State.get('session').currentUser;
         },
+
+        isStaging() {
+            return Shopware.State.get('context').app.config.settings.enableStagingMode === true;
+        },
     },
 
     watch: {
